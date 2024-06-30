@@ -15,7 +15,8 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
 [![dataset](https://img.shields.io/badge/Dataset-link-blue)]()
 
 
-The input of the framework is a set of sparse view images of a scene. 
+The input of the framework is a set of sparse view images of a scene. We aim to detect 'odd-looking' objects with manufacturing errors (e.g., different geometry, texture) or damages (e.g., cracks, fractures).
+
 
 <table>
   <tr>
