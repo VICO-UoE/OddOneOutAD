@@ -63,10 +63,6 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
         <source src="./figures/sample_6.mp4" type="video/mp4">
         Your browser does not support the video tag.
       </video>
-
-https://github.com/VICO-UoE/OddOneOutAD/assets/26159099/0774d00b-02f4-4b88-87d3-897a0c40f4d5
-
-
       <p>Video 6 Description</p>
     </td>
   </tr>
