@@ -15,59 +15,19 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
 [![dataset](https://img.shields.io/badge/Dataset-link-blue)]()
 
 
-# Video Grid
-
-## Video Grid Layout
+The input of the framework is a set of sparse view images of a scene. 
 
 <table>
   <tr>
-    <td>
-      <video width="320" height="240" controls>
-        <source src="./figures/sample_1.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p>Video 1 Description</p>
-    </td>
-    <td>
-      <video width="320" height="240" controls>
-        <source src="./figures/sample_2.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p>Video 2 Description</p>
-    </td>
-    <td>
-      <video width="320" height="240" controls>
-        <source src="./figures/sample_3.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p>Video 3 Description</p>
-    </td>
+    <td><img src="figures/sample_1.gif" width="200"/></td>
+    <td><img src="figures/sample_2.gif" width="200"/></td>
+    <td><img src="figures/sample_3.gif" width="200"/></td>
   </tr>
   <tr>
-    <td>
-      <video width="320" height="240" controls>
-        <source src="./figures/sample_4.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p>Video 4 Description</p>
-    </td>
-    <td>
-      <video width="320" height="240" controls>
-        <source src="./figures/sample_5.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p>Video 5 Description</p>
-    </td>
-    <td>
-      <video width="320" height="240" controls>
-        <source src="./figures/sample_6.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-      </video>
-      <p>Video 6 Description</p>
-    </td>
+    <td><img src="figures/sample_4.gif" width="200"/></td>
+    <td><img src="figures/sample_5.gif" width="200"/></td>
+    <td><img src="figures/sample_6.gif" width="200"/></td>
   </tr>
 </table>
-
-
 
 # Codes and Dataset coming soon! 
