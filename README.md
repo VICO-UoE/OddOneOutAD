@@ -42,7 +42,7 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
     </tr>
 </table>
 
-## 🏙️ More examples of our proposed dataset
+## 🎯 More examples
 
 
 <table>
