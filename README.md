@@ -15,7 +15,7 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
 [![dataset](https://img.shields.io/badge/Dataset-link-blue)]()
 
 
-## 🌀 Ours Multi-object AD vs Previous Works
+## 🌀 Our Multi-object AD vs Previous Works
 
 <table>
     <tr>
