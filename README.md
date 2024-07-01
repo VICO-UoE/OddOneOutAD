@@ -6,7 +6,7 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
 
 <table>
   <tr>
-      <strong><a href="https://arxiv.org/abs/xxxxxx">Odd-One-Out: Anomaly Detection by Comparing with Neighbors</a></strong><br>
+      <strong><a href="https://arxiv.org/abs/2406.20099">Odd-One-Out: Anomaly Detection by Comparing with Neighbors</a></strong><br>
       Ankan Bhunia, Changjian Li, Hakan Bilen<br>
   </tr>
 </table>
