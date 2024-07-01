@@ -22,7 +22,6 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
     <td><img src="figures/SAD.jpg" width="800"/></td>
     <td>The input is usually an image of single object. Here, anomalies are instance-specific.
       <ul>
-        <li></li> 
         <li>This setting suffers from <b>ambiguous</b> definition of regularity (e.g., both cups in the example can be either normal or anomalous based on what the manufacturer wants to produce).</li>
         <li>To resolve the ambiguity an explicit specification of regularity is required to provide (e.g., <a href="https://github.com/VICO-UoE/Looking3D">Looking3D</a>).</li>
       </ul>
