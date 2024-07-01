@@ -19,7 +19,7 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
 
 <table>
     <tr>
-    <td>(a) Standard AD setting</td>
+    <td><img src="figures/SAD.jpg" width="800"/></td>
     <td>The input is usually an image of single object. In this setting,
       <ul>
         <li>Anomalies are instance-specific.</li> 
@@ -27,10 +27,9 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
         <li>To resolve the ambiguity an explicit specification of regularity is required to provide (e.g., <a href="https://github.com/VICO-UoE/Looking3D">Looking3D</a>).</li>
       </ul>
     </td>
-    <td><img src="figures/SAD.jpg" width="800"/></td>
     </tr>
     <tr>
-      <td>(b) Proposed Multi-object AD setting</td>
+      <td><img src="figures/MAD.jpg" width="800"/></td>
       <td>The input of the framework is a set of sparse view images of a scene containing multiple objects. We aim to detect 'odd-looking' objects that contain manufacturing errors (e.g., different geometry, texture) or damages (e.g., cracks, fractures).
       <ul>
         <li>Anomalies are scene-specific.</li>
@@ -38,7 +37,6 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
         <li>This is useful in quality control in bulk production.</li>
       </ul>
       </td>
-       <td><img src="figures/MAD.jpg" width="800"/></td>
     </tr>
 </table>
 
