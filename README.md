@@ -11,7 +11,7 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
   </tr>
 </table>
 
-[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://openaccess.thecvf.com/content/CVPR2024/papers/Bhunia_Looking_3D_Anomaly_Detection_with_2D-3D_Alignment_CVPR_2024_paper.pdf)
+[![paper](https://img.shields.io/badge/arXiv-Paper-<COLOR>.svg)](https://arxiv.org/abs/2406.20099)
 [![dataset](https://img.shields.io/badge/Dataset-link-blue)]()
 
 
