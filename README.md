@@ -2,7 +2,7 @@
 
 Goal: Detecting 'odd-looking' samples in multi-object scene environments. 
 
-<img src=figures/o3.gif>
+<img src=figures/data.gif>
 
 <table>
   <tr>
@@ -15,23 +15,12 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
 [![dataset](https://img.shields.io/badge/Dataset-link-blue)]()
 
 
-The input of the framework is a set of sparse view images of a scene containing multiple objects. We aim to detect 'odd-looking' objects that contain manufacturing errors (e.g., different geometry, texture) or damages (e.g., cracks, fractures).
-
-<table>
-  <tr>
-    <td><img src="figures/sample_1.gif" width="200"/></td>
-    <td><img src="figures/sample_2.gif" width="200"/></td>
-    <td><img src="figures/sample_3.gif" width="200"/></td>
-  </tr>
-  <tr>
-    <td><img src="figures/sample_4.gif" width="200"/></td>
-    <td><img src="figures/sample_5.gif" width="200"/></td>
-    <td><img src="figures/sample_6.gif" width="200"/></td>
-  </tr>
-</table>
+> The input of the framework is a set of sparse view images of a scene containing multiple objects. We aim to detect 'odd-looking' objects that contain manufacturing errors (e.g., different geometry, texture) or damages (e.g., cracks, fractures).
 
 
+## 🎯 PartsAD-15K and ToysAd-8K datasets
 
+<img src=figures/o3.gif>
 
 
 ## ⚡ Codes and Dataset coming soon! 
