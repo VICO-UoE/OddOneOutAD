@@ -23,4 +23,25 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
 <img src=figures/o3.gif>
 
 
+<table>
+  <tr>
+    <td>🔖 click to preview dataset images</td>
+    <td><img src="figures/sample_1.gif" width="60"/></td>
+    <td><img src="figures/sample_2.gif" width="60"/></td>
+    <td><img src="figures/sample_3.gif" width="60"/></td>
+    <td><img src="figures/sample_4.gif" width="60"/></td>
+    <td><img src="figures/sample_5.gif" width="60"/></td>
+    <td><img src="figures/sample_6.gif" width="60"/></td>
+  </tr>
+</table>
+
+## Cite our work!
+```
+@article{bhunia2024odd,
+  title={Odd-One-Out: Anomaly Detection by Comparing with Neighbors},
+  author={Bhunia, Ankan and Li, Changjian and Bilen, Hakan},
+  journal={arXiv preprint arXiv:2406.20099},
+  year={2024}
+}
+```
 ## ⚡ Codes and Dataset coming soon! 
