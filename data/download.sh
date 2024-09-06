@@ -11,6 +11,7 @@ DOWNLOAD_DIR="tmp_downloads"
 DATASET_PATH="datasets"
 
 mkdir -p $DOWNLOAD_DIR
+mkdir -p $DATASET_PATH
 
 # Download each file
 for SUFFIX in "${SUFFIXES[@]}"; do
@@ -22,6 +23,7 @@ for SUFFIX in "${SUFFIXES[@]}"; do
     fi
 done
 
+echo "Merging all zip parts..."
 # Combine all zip files into one
 cat ${DOWNLOAD_DIR}/$1_part_* > ${DOWNLOAD_DIR}/$1.zip
 
