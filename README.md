@@ -38,13 +38,13 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
     <td><b>Comments</b></td>
   </tr>
       <tr>
-    <td>ToysAD-8K</td>
+    <td><a href="https://huggingface.co/datasets/ankankbhunia/odd-one-out/tree/main">ToysAD-8K</a></td>
     <td><em>bash data/download.sh toysAD8K</em></td>
     <td>40 GB</td>
     <td>Rendered using <a href="https://rehg.org/publication/dataset2/">Toys4K</a>* shapes (Creative Commons and royalty-free licenses)</a></td>
   </tr>
     <tr>
-    <td>PartsAD-15K</td>
+    <td><a href="https://huggingface.co/datasets/ankankbhunia/odd-one-out/tree/main">PartsAD-15K</a></td>
     <td><em>bash data/download.sh partsAD15K</em></td>
     <td>94 GB</td>
     <td>Rendered using <a href="https://deep-geometry.github.io/abc-dataset/">ABC</a>* shapes  (MIT827 license)</td>
