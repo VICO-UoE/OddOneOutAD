@@ -19,10 +19,10 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
 
 ## News
 
+06/09/2024 - Codes & models coming soon.
 06/09/2024 - The dataset is made public via huggingface.
 
 ## 🎯 ToysAD-8K and PartsAD-15K datasets
-
 
 - The `ToysAD-8K` and  `PartsAD-15K` dataset are available for download [here](https://huggingface.co/datasets/ankankbhunia/odd-one-out/tree/main).
 - `ToysAD-8K` includes real-world objects from multiple categories and `PartsAD-15K` comprises a diverse set of mechanical object parts.
