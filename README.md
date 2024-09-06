@@ -19,8 +19,8 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
 
 ## News
 
-06/09/2024 - Codes & models coming soon.
-06/09/2024 - The dataset is made public via huggingface.
+- 06/09/2024 - Codes & models coming soon.
+- 06/09/2024 - The dataset is made public via huggingface.
 
 ## 🎯 ToysAD-8K and PartsAD-15K datasets
 
