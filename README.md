@@ -80,4 +80,3 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
   year={2024}
 }
 ```
-## ⚡ Codes and Dataset coming soon! 
