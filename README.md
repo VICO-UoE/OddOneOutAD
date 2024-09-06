@@ -50,7 +50,7 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
     <td>Rendered using <a href="https://deep-geometry.github.io/abc-dataset/">ABC</a>* shapes  (MIT827 license)</td>
 </table>
 
-*This repository does not claim ownership of the shapes in the original dataset. To obtain the original shape data, please refer to the dataset pages. You can retrieve the shape_ids from .json files in the scene folders.
+*This repository does not claim ownership of the shapes in the original dataset. To obtain the original shape data, please refer to their official dataset pages. You can retrieve the shape_ids from .json files in the scene folders.
 
 ## Examples
 
