@@ -30,6 +30,7 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
 - Different types of abnormalities include: missing parts, broken/fracture/cracks parts, mis-alignments, texture mismatch.
 - The datasets are divided into chunks of 5GB. We provide scripts to download both datasets.
 
+
 <table>
   <tr>
     <td><b>Dataset name</b></td>
@@ -52,6 +53,17 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
 
 *This repository does not claim ownership of the shapes in the original dataset. To obtain the original shape data, please refer to their official dataset pages. You can retrieve the shape_ids from .json files in the scene folders.
 
+
+## Tool to visualize data
+
+<img src=figures/visualizer_demo.gif>
+
+To obtain similar visualization run the following command and go to http://localhost:8000. Make sure you have ```viser``` installed using ```pip install viser```.
+```bash
+python visualize_data.py --scene_path ./data/sample_scene_data/
+```
+
+
 ## Examples
 
 <br>
@@ -71,15 +83,6 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
   </tr>
 </table>
 
-
-## Tool to visualize data
-
-<img src=figures/visualizer_demo.gif>
-
-To obtain similar visualization run the following command and go to http://localhost:8000. Make sure you have ```viser``` installed using ```pip install viser```.
-```bash
-python visualize_data.py --scene_path ./data/sample_scene_data/
-```
 
 
 ## Cite our work!
