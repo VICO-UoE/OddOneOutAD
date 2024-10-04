@@ -71,6 +71,17 @@ Goal: Detecting 'odd-looking' samples in multi-object scene environments.
   </tr>
 </table>
 
+
+## Tool to visualize data
+
+<img src=figures/visualizer_demo.gif>
+
+To obtain similar visualization run the following command and go to http://localhost:8000. Make sure you have ```viser``` installed using ```pip install viser```.
+```bash
+python visualize_data.py --scene_path ./data/sample_scene_data/
+```
+
+
 ## Cite our work!
 ```
 @article{bhunia2024odd,
