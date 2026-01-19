@@ -1,0 +1,54 @@
+dataset:
+  data_path: /data/partsad15/
+  split_path: ./configs/parts15k-split.json
+  batch_size: 4
+  test_batch_size: 8
+  dimension: 256
+  max_objs: 15
+  num_workers: 2
+train:
+  3d_training:
+    num_views: 5 
+    lr:
+      backbone: 1e-5
+    loss_types: ["render_loss"]
+    loss_weights: [1]
+    random_scene_augmentation:
+      rot_range: (-150,150)
+      scale_range: auto
+      trans_range: (-0.2, 0.2)
+      flip_prob: 0.5
+  cls_training:
+    num_views: 5 
+    lr:
+      backbone: 1e-5
+      matching_net: 2e-5
+    loss_types: ["pairwise_cls_loss", "render_loss"]
+    loss_weights: [1, 0.1]
+    random_scene_augmentation:
+      rot_range: None
+      scale_range: auto
+      trans_range: None
+      flip_prob: None
+model:
+  backbone:
+    voxel_dim: [96,96,16]
+    voxel_size: 0.04
+    voxel_feat_dim: 32
+    voxel_hidden_dim: 128
+    voxel_proj_dim: 384 ## this is linked to render.dinov2_model_name
+  matching_net:
+    crop_resize_dim: [8,8,8]
+    num_pairs: 8
+    pad_len: 0
+    n_head: 8
+    dim_per_head: 32
+    n_layer: 3
+    topk: 20
+  render:
+    out_img_size: 256
+    out_feat_Size: 32
+    n_pts_per_ray: 128
+    dinov2_model_name: 'dinov2_vits14' 
+  threshold: 0.3
+  sparsity_constant: 1.5

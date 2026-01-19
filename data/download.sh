@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This work is licensed under the Creative Commons Attribution-Non Commercial ShareAlike 4.0 International License. 
+# To view a copy of this license, visit Legal Code - https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.en
+
+
 # Base URL for the files
 BASE_URL="https://huggingface.co/datasets/ankankbhunia/odd-one-out/resolve/main/$1_part_"
 
@@ -8,7 +12,7 @@ SUFFIXES=("aa" "ab" "ac" "ad" "ae" "af" "ag" "ah" "ai" "aj" "ak" "al" "am" "an" 
 
 # Directory to store downloaded files
 DOWNLOAD_DIR="tmp_downloads"
-DATASET_PATH="datasets"
+DATASET_PATH=$2
 
 mkdir -p $DOWNLOAD_DIR
 mkdir -p $DATASET_PATH
